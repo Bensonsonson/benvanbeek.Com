@@ -18,6 +18,11 @@
 	//Portfolio
         $('.bxslider').bxSlider();
         
+        
+        
+        
+        
+        
 	// portfolio
     if($('.isotopeWrapper').length){
 

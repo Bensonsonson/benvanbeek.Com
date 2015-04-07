@@ -336,13 +336,13 @@ section#section-services{
 ============================= */
 
 #parallax1{	
-    background: #000 url(../img/parallax/code1.png) no-repeat top right;
+    background-image: url(../img/parallax/img2_1.jpg);
 }
 #parallax2{	
-    background-image: url(../img/parallax/galax6.jpg);
+    background: #000 url(../img/parallax/code1.png) no-repeat top right;
 }
 #parallax3{	
-    background-image: url(../img/parallax/img2_1.jpg);
+    background-image: url(../img/parallax/galax6.jpg);
 }
 /*===========================
   --- Header & menu ----
