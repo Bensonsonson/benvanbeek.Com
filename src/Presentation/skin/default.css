@@ -1,0 +1,78 @@
+/*
+#1 = 405684
+#2 = 98A6C3
+*/
+a {
+	color: #405684;
+}
+a:hover {
+	color: #98A6C3;
+}
+
+/* menu */
+.nav>li>a:hover {
+	color: #98A6C3;
+}
+
+.navbar .navbar-nav > .active > a {
+	color: #98A6C3;
+}
+
+/* flexslider */
+.flex-control-paging li a {
+	background: #405684;
+}
+
+.flex-direction-nav a:hover{
+	background-color:#405684;
+}
+
+.testimonial span.author a {
+	color: #98A6C3;
+}
+
+/* --- icon box hover --- */
+.hi-icon-effect-5 .hi-icon {
+	color: #405684;
+	box-shadow: 0 0 0 4px #405684;
+}
+.no-touch .hi-icon-effect-5 .hi-icon:hover {
+	background: #405684;
+	box-shadow: 0 0 0 8px  #98A6C3;
+}
+
+
+/* portfolio */
+.portfolio-item .portfolio-desc {
+	background: #405684;
+}
+
+/* btn */
+.btn-theme {
+  background: #98A6C3;
+}
+.btn-theme:hover,.btn-theme:focus,.btn-theme:active{
+  background: #405684;
+}
+.btn-cta,.btn-cta.btn-lg {
+  background: #405684;
+  border-color: #98A6C3;
+}
+
+.btn-cta:focus,.btn-cta:active{
+   border-color: #405684;
+}
+
+/* contact */
+.validation {
+	color:#405684;
+}
+
+/* footer */
+.social-circle li a {
+	background:#405684;
+}
+
+a.scrollup{
+	background:#405684;
+}
