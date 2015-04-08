@@ -276,14 +276,14 @@
                     <h2 class="section-heading animated" data-animation="bounceInUp">Contact Me</h2>
                 </div>
                 <div class="row mar-top40">
-                    <div class="col-md-3 col-md-offset-3">
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="row mar-bot40">
+                            <p><i class="fa fa-phone"></i> +32 474 89 79 51</p>
+                        </div>
                         <div class="row mar-bot40">
                             <a href="mailto:ben_van_beek@hotmail.com">
                                 <p><i class="fa fa-envelope"></i> ben_van_beek@hotmail.com</p>
                             </a>
-                        </div>
-                        <div class="row mar-bot40">
-                            <p><i class="fa fa-phone"></i> +32 474 89 79 51</p>
                         </div>
                         <div class="row mar-bot40">
                             <a href="https://github.com/Bensonsonson" target="_blank" class="icoGithub" title="Github">
@@ -314,8 +314,8 @@
                             <a class="btn btn-theme pull-left" href="Downloads/CV_BenVanBeek.docx" download="BenVanBeekCV"><i class="fa fa-download"></i> Download CV</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="col-md-8">
+                    <div class="col-md-4">
+                        <div class="col-md-12">
                             <div class="cform" id="contact-form">
                                 {% if errormessages is defined and errormessages is not empty %}
                                     <div id="errormessages">
@@ -336,7 +336,7 @@
                                 </div>
                                 <form action="index.php#section-contact" method="post" role="form" class="contactForm" id="contactForm" novalidate>
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" value="{% if name is defined %}{{name}}{% endif %}" />
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="maxlen:4" data-msg="Please fill in your name (min 4 characters)" value="{% if name is defined %}{{name}}{% endif %}" />
                                         <div class="validation"></div>
                                     </div>
                                     <div class="form-group">
@@ -344,20 +344,23 @@
                                         <div class="validation"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" value="{% if subject is defined %}{{subject}}{% endif %}" />
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="maxlen:4" data-msg="What's your message about? (min 8 characters)" value="{% if subject is defined %}{{subject}}{% endif %}" />
                                         <div class="validation"></div>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="3" data-rule="required" data-msg="Please write something for us" >{% if message is defined %}{{message}}{% endif %}</textarea>
+                                        <textarea class="form-control" name="message" rows="3" data-rule="required" data-msg="Please write a message" >{% if message is defined %}{{message}}{% endif %}</textarea>
                                         <div class="validation"></div>
                                     </div>
 
-                                    <button type="submit" class="btn btn-theme pull-left">SEND MESSAGE</button>
+                                    <button type="submit" class="btn btn-theme pull-left">Send Message</button>
                                 </form>
 
                             </div>
                         </div>
                         <!-- ./span12 -->
+                    </div>
+                    <div class="col-md-4 align-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2501.290612718882!2d4.831948800000001!3d51.176866399999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1523a5f5c71e9%3A0xf9403a2ce36ea909!2sWasserijstraat+2%2C+2200+Herentals!5e0!3m2!1snl!2sbe!4v1428476514072" width="400" height="300" frameborder="0" style="border:0"></iframe>
                     </div>
                 </div>
             </div>
