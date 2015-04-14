@@ -301,7 +301,7 @@ a:hover {
     margin-bottom: 35px;
 }
 .mar-bot40 {
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
 
@@ -339,7 +339,7 @@ section#section-services{
     background-image: url(../img/parallax/img2_1.jpg);
 }
 #parallax2{	
-    background: #000 url(../img/parallax/code1.png) no-repeat top right;
+    background: #111;
 }
 #parallax3{	
     background-image: url(../img/parallax/galax6.jpg);
