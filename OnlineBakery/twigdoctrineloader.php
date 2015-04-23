@@ -1,6 +1,6 @@
 <?php
 
-require_once("Doctrine/Common/Classloader.php");
+require_once("Doctrine/Common/ClassLoader.php");
 require_once("Libraries/Twig/Autoloader.php");
 
 use Doctrine\Common\ClassLoader;
